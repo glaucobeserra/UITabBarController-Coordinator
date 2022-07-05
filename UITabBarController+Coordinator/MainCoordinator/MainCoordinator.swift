@@ -7,8 +7,6 @@
 
 import UIKit
 
-// ❗️ Just for example
-
 class MainCoordinator: Coordinator {
     
     // MARK: - Properties
@@ -40,3 +38,5 @@ class MainCoordinator: Coordinator {
     }
 
 }
+
+// ❗️ Just for example
