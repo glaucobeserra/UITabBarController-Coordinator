@@ -16,6 +16,9 @@
 		19D26D942874993300820556 /* UITabBarController_CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26D932874993300820556 /* UITabBarController_CoordinatorTests.swift */; };
 		19D26D9E2874993300820556 /* UITabBarController_CoordinatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26D9D2874993300820556 /* UITabBarController_CoordinatorUITests.swift */; };
 		19D26DA02874993300820556 /* UITabBarController_CoordinatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26D9F2874993300820556 /* UITabBarController_CoordinatorUITestsLaunchTests.swift */; };
+		19D26DAE28749C8000820556 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DAD28749C8000820556 /* Coordinator.swift */; };
+		19D26DB028749C9100820556 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DAF28749C9100820556 /* Storyboarded.swift */; };
+		19D26DB228749CA000820556 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DB128749CA000820556 /* UIViewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		19D26D992874993300820556 /* UITabBarController+CoordinatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITabBarController+CoordinatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D26D9D2874993300820556 /* UITabBarController_CoordinatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarController_CoordinatorUITests.swift; sourceTree = "<group>"; };
 		19D26D9F2874993300820556 /* UITabBarController_CoordinatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarController_CoordinatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19D26DAD28749C8000820556 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		19D26DAF28749C9100820556 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		19D26DB128749CA000820556 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		19D26D7B2874992E00820556 /* UITabBarController+Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				19D26DAC28749C6E00820556 /* Helpers */,
 				19D26D7C2874992E00820556 /* AppDelegate.swift */,
 				19D26D7E2874992E00820556 /* SceneDelegate.swift */,
 				19D26D802874992E00820556 /* ViewController.swift */,
@@ -125,6 +132,16 @@
 				19D26D9F2874993300820556 /* UITabBarController_CoordinatorUITestsLaunchTests.swift */,
 			);
 			path = "UITabBarController+CoordinatorUITests";
+			sourceTree = "<group>";
+		};
+		19D26DAC28749C6E00820556 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				19D26DAD28749C8000820556 /* Coordinator.swift */,
+				19D26DAF28749C9100820556 /* Storyboarded.swift */,
+				19D26DB128749CA000820556 /* UIViewController+Extension.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19D26DB228749CA000820556 /* UIViewController+Extension.swift in Sources */,
+				19D26DAE28749C8000820556 /* Coordinator.swift in Sources */,
 				19D26D812874992E00820556 /* ViewController.swift in Sources */,
+				19D26DB028749C9100820556 /* Storyboarded.swift in Sources */,
 				19D26D7D2874992E00820556 /* AppDelegate.swift in Sources */,
 				19D26D7F2874992E00820556 /* SceneDelegate.swift in Sources */,
 			);
@@ -447,6 +467,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +477,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -475,6 +496,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,7 +506,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
