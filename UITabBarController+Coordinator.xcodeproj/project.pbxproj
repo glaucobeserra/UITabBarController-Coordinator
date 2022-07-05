@@ -19,7 +19,9 @@
 		19D26DB228749CA000820556 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DB128749CA000820556 /* UIViewController+Extension.swift */; };
 		19D26DB428749D4A00820556 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DB328749D4A00820556 /* MainCoordinator.swift */; };
 		19D26DB628749D6500820556 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DB528749D6500820556 /* MainViewController.swift */; };
-		19D26DB828749E6B00820556 /* MainTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DB728749E6B00820556 /* MainTabBarCoordinator.swift */; };
+		19D26DB828749E6B00820556 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DB728749E6B00820556 /* MainTabBarController.swift */; };
+		19D26DBA28749FC800820556 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DB928749FC800820556 /* FirstViewController.swift */; };
+		19D26DBC2874A17600820556 /* FirstFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DBB2874A17600820556 /* FirstFlowCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +58,9 @@
 		19D26DB128749CA000820556 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		19D26DB328749D4A00820556 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		19D26DB528749D6500820556 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		19D26DB728749E6B00820556 /* MainTabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarCoordinator.swift; sourceTree = "<group>"; };
+		19D26DB728749E6B00820556 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		19D26DB928749FC800820556 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		19D26DBB2874A17600820556 /* FirstFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstFlowCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +119,9 @@
 				19D26D8A2874993300820556 /* Info.plist */,
 				19D26DB328749D4A00820556 /* MainCoordinator.swift */,
 				19D26DB528749D6500820556 /* MainViewController.swift */,
-				19D26DB728749E6B00820556 /* MainTabBarCoordinator.swift */,
+				19D26DB728749E6B00820556 /* MainTabBarController.swift */,
+				19D26DB928749FC800820556 /* FirstViewController.swift */,
+				19D26DBB2874A17600820556 /* FirstFlowCoordinator.swift */,
 			);
 			path = "UITabBarController+Coordinator";
 			sourceTree = "<group>";
@@ -277,14 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19D26DBA28749FC800820556 /* FirstViewController.swift in Sources */,
 				19D26DB228749CA000820556 /* UIViewController+Extension.swift in Sources */,
 				19D26DB428749D4A00820556 /* MainCoordinator.swift in Sources */,
 				19D26DAE28749C8000820556 /* Coordinator.swift in Sources */,
-				19D26DB828749E6B00820556 /* MainTabBarCoordinator.swift in Sources */,
+				19D26DB828749E6B00820556 /* MainTabBarController.swift in Sources */,
 				19D26DB028749C9100820556 /* Storyboarded.swift in Sources */,
 				19D26D7D2874992E00820556 /* AppDelegate.swift in Sources */,
 				19D26D7F2874992E00820556 /* SceneDelegate.swift in Sources */,
 				19D26DB628749D6500820556 /* MainViewController.swift in Sources */,
+				19D26DBC2874A17600820556 /* FirstFlowCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
