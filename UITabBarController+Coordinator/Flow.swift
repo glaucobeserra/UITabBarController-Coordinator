@@ -24,7 +24,10 @@ enum Flow {
         switch self {
         case .first:
             let navigationController = UINavigationController()
-            return FirstFlowCoordinator(navigationController: navigationController)
+            let coordinator = FirstFlowCoordinator(navigationController: navigationController)
+            coordinator.start()
+            
+            return coordinator
             
         case .second: return SecondFlowCoordinator()
         case .third: return ThirdFlowCoordinator()
