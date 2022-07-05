@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		19D26D7D2874992E00820556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26D7C2874992E00820556 /* AppDelegate.swift */; };
 		19D26D7F2874992E00820556 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26D7E2874992E00820556 /* SceneDelegate.swift */; };
-		19D26D812874992E00820556 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26D802874992E00820556 /* ViewController.swift */; };
-		19D26D842874992E00820556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D26D822874992E00820556 /* Main.storyboard */; };
 		19D26D862874993300820556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D26D852874993300820556 /* Assets.xcassets */; };
 		19D26D892874993300820556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D26D872874993300820556 /* LaunchScreen.storyboard */; };
 		19D26D942874993300820556 /* UITabBarController_CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26D932874993300820556 /* UITabBarController_CoordinatorTests.swift */; };
@@ -19,6 +17,9 @@
 		19D26DAE28749C8000820556 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DAD28749C8000820556 /* Coordinator.swift */; };
 		19D26DB028749C9100820556 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DAF28749C9100820556 /* Storyboarded.swift */; };
 		19D26DB228749CA000820556 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DB128749CA000820556 /* UIViewController+Extension.swift */; };
+		19D26DB428749D4A00820556 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DB328749D4A00820556 /* MainCoordinator.swift */; };
+		19D26DB628749D6500820556 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DB528749D6500820556 /* MainViewController.swift */; };
+		19D26DB828749E6B00820556 /* MainTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DB728749E6B00820556 /* MainTabBarCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +43,6 @@
 		19D26D792874992E00820556 /* UITabBarController+Coordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITabBarController+Coordinator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D26D7C2874992E00820556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19D26D7E2874992E00820556 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		19D26D802874992E00820556 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		19D26D832874992E00820556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19D26D852874993300820556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19D26D882874993300820556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19D26D8A2874993300820556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +54,9 @@
 		19D26DAD28749C8000820556 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		19D26DAF28749C9100820556 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		19D26DB128749CA000820556 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		19D26DB328749D4A00820556 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		19D26DB528749D6500820556 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		19D26DB728749E6B00820556 /* MainTabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,11 +110,12 @@
 				19D26DAC28749C6E00820556 /* Helpers */,
 				19D26D7C2874992E00820556 /* AppDelegate.swift */,
 				19D26D7E2874992E00820556 /* SceneDelegate.swift */,
-				19D26D802874992E00820556 /* ViewController.swift */,
-				19D26D822874992E00820556 /* Main.storyboard */,
 				19D26D852874993300820556 /* Assets.xcassets */,
 				19D26D872874993300820556 /* LaunchScreen.storyboard */,
 				19D26D8A2874993300820556 /* Info.plist */,
+				19D26DB328749D4A00820556 /* MainCoordinator.swift */,
+				19D26DB528749D6500820556 /* MainViewController.swift */,
+				19D26DB728749E6B00820556 /* MainTabBarCoordinator.swift */,
 			);
 			path = "UITabBarController+Coordinator";
 			sourceTree = "<group>";
@@ -250,7 +253,6 @@
 			files = (
 				19D26D892874993300820556 /* LaunchScreen.storyboard in Resources */,
 				19D26D862874993300820556 /* Assets.xcassets in Resources */,
-				19D26D842874992E00820556 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,11 +278,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				19D26DB228749CA000820556 /* UIViewController+Extension.swift in Sources */,
+				19D26DB428749D4A00820556 /* MainCoordinator.swift in Sources */,
 				19D26DAE28749C8000820556 /* Coordinator.swift in Sources */,
-				19D26D812874992E00820556 /* ViewController.swift in Sources */,
+				19D26DB828749E6B00820556 /* MainTabBarCoordinator.swift in Sources */,
 				19D26DB028749C9100820556 /* Storyboarded.swift in Sources */,
 				19D26D7D2874992E00820556 /* AppDelegate.swift in Sources */,
 				19D26D7F2874992E00820556 /* SceneDelegate.swift in Sources */,
+				19D26DB628749D6500820556 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		19D26D822874992E00820556 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				19D26D832874992E00820556 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		19D26D872874993300820556 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -464,7 +460,6 @@
 				INFOPLIST_FILE = "UITabBarController+Coordinator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -493,7 +488,6 @@
 				INFOPLIST_FILE = "UITabBarController+Coordinator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
