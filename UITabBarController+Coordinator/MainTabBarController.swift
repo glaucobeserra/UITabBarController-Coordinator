@@ -22,29 +22,24 @@ class MainTabBarController: UITabBarController {
     }
     
     private func setUpViewControllers() {
-        viewControllers = [
-            makeNav(for: makeFirstViewController(), title: "Friends", icon: "person.2.fill"),
-            makeNav(for: makeSecondViewController(), title: "Cards", icon: "creditcard.fill"),
-            makeNav(for: ThirdViewController(), title: "Terceira", icon: "creditcard.fill")
-        ]
+        viewControllers = [makeFirstFlow(), makeSecondFlow(), makeThirdFlow()]
     }
     
-    private func makeNav(for viewController: UIViewController, title: String, icon: String) -> UIViewController {
-        viewController.navigationItem.largeTitleDisplayMode = .always
+    private func makeFirstFlow() -> UINavigationController {
+        let firstNavigationController = UINavigationController()
+        let firstCoordinator = FirstFlowCoordinator(navigationController: firstNavigationController)
+        firstCoordinator.start()
         
-        let navigationController = UINavigationController(rootViewController: viewController)
-        navigationController.tabBarItem.title = title
-        navigationController.navigationBar.prefersLargeTitles = true
-        navigationController.tabBarItem.image = UIImage(systemName: icon, withConfiguration: UIImage.SymbolConfiguration(scale: .large))
-        
-        return navigationController
+        return firstNavigationController
     }
     
-    func makeFirstViewController() -> FirstViewController {
-        return FirstViewController()
+    private func makeSecondFlow() -> UINavigationController {
+        let secondCoordinator = SecondFlowCoordinator()
+        return secondCoordinator.navigationController
     }
     
-    func makeSecondViewController() -> SecondViewController {
-        return SecondViewController()
+    private func makeThirdFlow() -> UINavigationController {
+        let thirdCoordinator = ThirdFlowCoordinator()
+        return thirdCoordinator.navigationController
     }
 }

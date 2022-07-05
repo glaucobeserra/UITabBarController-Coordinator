@@ -18,10 +18,15 @@
 		19D26DB028749C9100820556 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DAF28749C9100820556 /* Storyboarded.swift */; };
 		19D26DB228749CA000820556 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DB128749CA000820556 /* UIViewController+Extension.swift */; };
 		19D26DB428749D4A00820556 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DB328749D4A00820556 /* MainCoordinator.swift */; };
-		19D26DB628749D6500820556 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DB528749D6500820556 /* MainViewController.swift */; };
 		19D26DB828749E6B00820556 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DB728749E6B00820556 /* MainTabBarController.swift */; };
 		19D26DBA28749FC800820556 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DB928749FC800820556 /* FirstViewController.swift */; };
 		19D26DBC2874A17600820556 /* FirstFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DBB2874A17600820556 /* FirstFlowCoordinator.swift */; };
+		19D26DC12874D91C00820556 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DC02874D91C00820556 /* SecondViewController.swift */; };
+		19D26DC32874D92700820556 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DC22874D92700820556 /* ThirdViewController.swift */; };
+		19D26DC52874D97100820556 /* SecondFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DC42874D97100820556 /* SecondFlowCoordinator.swift */; };
+		19D26DC72874D9AD00820556 /* ThirdFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DC62874D9AD00820556 /* ThirdFlowCoordinator.swift */; };
+		19D26DC92874E48800820556 /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DC82874E48800820556 /* Flow.swift */; };
+		19D26DCC2874E6D200820556 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DCB2874E6D200820556 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +62,15 @@
 		19D26DAF28749C9100820556 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		19D26DB128749CA000820556 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		19D26DB328749D4A00820556 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
-		19D26DB528749D6500820556 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		19D26DB728749E6B00820556 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		19D26DB928749FC800820556 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		19D26DBB2874A17600820556 /* FirstFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstFlowCoordinator.swift; sourceTree = "<group>"; };
+		19D26DC02874D91C00820556 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		19D26DC22874D92700820556 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		19D26DC42874D97100820556 /* SecondFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFlowCoordinator.swift; sourceTree = "<group>"; };
+		19D26DC62874D9AD00820556 /* ThirdFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdFlowCoordinator.swift; sourceTree = "<group>"; };
+		19D26DC82874E48800820556 /* Flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
+		19D26DCB2874E6D200820556 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,17 +121,18 @@
 		19D26D7B2874992E00820556 /* UITabBarController+Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				19D26DBD2874D8E400820556 /* FirstFlow */,
+				19D26DBE2874D8EF00820556 /* SecondFlow */,
+				19D26DBF2874D90100820556 /* ThirdFlow */,
 				19D26DAC28749C6E00820556 /* Helpers */,
 				19D26D7C2874992E00820556 /* AppDelegate.swift */,
 				19D26D7E2874992E00820556 /* SceneDelegate.swift */,
 				19D26D852874993300820556 /* Assets.xcassets */,
 				19D26D872874993300820556 /* LaunchScreen.storyboard */,
 				19D26D8A2874993300820556 /* Info.plist */,
-				19D26DB328749D4A00820556 /* MainCoordinator.swift */,
-				19D26DB528749D6500820556 /* MainViewController.swift */,
+				19D26DCA2874E61200820556 /* MainCoordinator */,
 				19D26DB728749E6B00820556 /* MainTabBarController.swift */,
-				19D26DB928749FC800820556 /* FirstViewController.swift */,
-				19D26DBB2874A17600820556 /* FirstFlowCoordinator.swift */,
+				19D26DC82874E48800820556 /* Flow.swift */,
 			);
 			path = "UITabBarController+Coordinator";
 			sourceTree = "<group>";
@@ -151,6 +162,42 @@
 				19D26DB128749CA000820556 /* UIViewController+Extension.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		19D26DBD2874D8E400820556 /* FirstFlow */ = {
+			isa = PBXGroup;
+			children = (
+				19D26DB928749FC800820556 /* FirstViewController.swift */,
+				19D26DBB2874A17600820556 /* FirstFlowCoordinator.swift */,
+			);
+			path = FirstFlow;
+			sourceTree = "<group>";
+		};
+		19D26DBE2874D8EF00820556 /* SecondFlow */ = {
+			isa = PBXGroup;
+			children = (
+				19D26DC02874D91C00820556 /* SecondViewController.swift */,
+				19D26DC42874D97100820556 /* SecondFlowCoordinator.swift */,
+			);
+			path = SecondFlow;
+			sourceTree = "<group>";
+		};
+		19D26DBF2874D90100820556 /* ThirdFlow */ = {
+			isa = PBXGroup;
+			children = (
+				19D26DC22874D92700820556 /* ThirdViewController.swift */,
+				19D26DC62874D9AD00820556 /* ThirdFlowCoordinator.swift */,
+			);
+			path = ThirdFlow;
+			sourceTree = "<group>";
+		};
+		19D26DCA2874E61200820556 /* MainCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				19D26DB328749D4A00820556 /* MainCoordinator.swift */,
+				19D26DCB2874E6D200820556 /* MainViewController.swift */,
+			);
+			path = MainCoordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,15 +330,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19D26DC12874D91C00820556 /* SecondViewController.swift in Sources */,
 				19D26DBA28749FC800820556 /* FirstViewController.swift in Sources */,
 				19D26DB228749CA000820556 /* UIViewController+Extension.swift in Sources */,
 				19D26DB428749D4A00820556 /* MainCoordinator.swift in Sources */,
 				19D26DAE28749C8000820556 /* Coordinator.swift in Sources */,
+				19D26DC52874D97100820556 /* SecondFlowCoordinator.swift in Sources */,
+				19D26DC92874E48800820556 /* Flow.swift in Sources */,
 				19D26DB828749E6B00820556 /* MainTabBarController.swift in Sources */,
 				19D26DB028749C9100820556 /* Storyboarded.swift in Sources */,
+				19D26DCC2874E6D200820556 /* MainViewController.swift in Sources */,
+				19D26DC72874D9AD00820556 /* ThirdFlowCoordinator.swift in Sources */,
 				19D26D7D2874992E00820556 /* AppDelegate.swift in Sources */,
 				19D26D7F2874992E00820556 /* SceneDelegate.swift in Sources */,
-				19D26DB628749D6500820556 /* MainViewController.swift in Sources */,
+				19D26DC32874D92700820556 /* ThirdViewController.swift in Sources */,
 				19D26DBC2874A17600820556 /* FirstFlowCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
