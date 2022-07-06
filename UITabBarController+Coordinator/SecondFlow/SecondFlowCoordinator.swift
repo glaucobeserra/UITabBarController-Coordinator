@@ -14,7 +14,6 @@ final class SecondFlowCoordinator: FlowCoordinator {
     var flow: Flow = .second
     var parentCoordinator: Coordinator?
     var childCoordinators: [Coordinator] = []
-    
     var navigationController: UINavigationController
     
     // MARK: - Initialization

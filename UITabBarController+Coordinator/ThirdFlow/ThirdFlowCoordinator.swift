@@ -14,7 +14,6 @@ final class ThirdFlowCoordinator: FlowCoordinator {
     var flow: Flow = .third
     var parentCoordinator: Coordinator?
     var childCoordinators: [Coordinator] = []
-    
     var navigationController: UINavigationController
     
     // MARK: - Initialization

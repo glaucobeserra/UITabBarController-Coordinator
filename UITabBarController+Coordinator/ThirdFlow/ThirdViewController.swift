@@ -7,12 +7,11 @@
 
 import UIKit
 
-class ThirdViewController: BaseViewController {
+final class ThirdViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         view.backgroundColor = .orange
-        
     }
 }
