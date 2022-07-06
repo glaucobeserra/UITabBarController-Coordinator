@@ -31,6 +31,7 @@ final class ThirdFlowCoordinator: Coordinator {
     private func goToThirdViewController() {
         let flow = Flow.third
         let viewController = flow.viewController
+        viewController.coordinator = self
         
         navigationController.tabBarItem.title = flow.title
         navigationController.navigationBar.prefersLargeTitles = true

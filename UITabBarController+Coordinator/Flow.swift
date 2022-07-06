@@ -12,7 +12,7 @@ enum Flow {
     case second
     case third
     
-    var viewController: UIViewController {
+    var viewController: BaseViewController {
         switch self {
         case .first: return FirstViewController()
         case .second: return SecondViewController()
