@@ -7,10 +7,11 @@
 
 import UIKit
 
-final class SecondFlowCoordinator: Coordinator {
+final class SecondFlowCoordinator: FlowCoordinator {
     
     // MARK: - Properties
     
+    var flow: Flow = .second
     var parentCoordinator: Coordinator?
     var childCoordinators: [Coordinator] = []
     
@@ -22,22 +23,5 @@ final class SecondFlowCoordinator: Coordinator {
         
         self.navigationController = navigationController
         start()
-    }
-    
-    func start() {
-        goToSecondViewController()
-    }
-    
-    private func goToSecondViewController() {
-        let flow = Flow.second
-        let viewController = flow.viewController
-        
-        navigationController.tabBarItem.title = flow.title
-        navigationController.navigationBar.prefersLargeTitles = true
-        navigationController.tabBarItem.image = UIImage(systemName: flow.icon,
-                                                        withConfiguration: UIImage.SymbolConfiguration(scale: .large))
-        
-        
-        navigationController.setViewControllers([viewController], animated: true)
     }
 }

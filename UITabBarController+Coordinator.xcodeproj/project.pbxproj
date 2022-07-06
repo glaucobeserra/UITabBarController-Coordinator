@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		190120ED287525E10055A3E5 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190120EC287525E10055A3E5 /* BaseViewController.swift */; };
+		190120EF28752B370055A3E5 /* FlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190120EE28752B370055A3E5 /* FlowCoordinator.swift */; };
 		19D26D7D2874992E00820556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26D7C2874992E00820556 /* AppDelegate.swift */; };
 		19D26D7F2874992E00820556 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26D7E2874992E00820556 /* SceneDelegate.swift */; };
 		19D26D862874993300820556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D26D852874993300820556 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		190120EC287525E10055A3E5 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		190120EE28752B370055A3E5 /* FlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCoordinator.swift; sourceTree = "<group>"; };
 		19D26D792874992E00820556 /* UITabBarController+Coordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITabBarController+Coordinator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D26D7C2874992E00820556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19D26D7E2874992E00820556 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				19D26DB728749E6B00820556 /* MainTabBarController.swift */,
 				19D26DC82874E48800820556 /* Flow.swift */,
 				190120EC287525E10055A3E5 /* BaseViewController.swift */,
+				190120EE28752B370055A3E5 /* FlowCoordinator.swift */,
 			);
 			path = "UITabBarController+Coordinator";
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				19D26DC72874D9AD00820556 /* ThirdFlowCoordinator.swift in Sources */,
 				19D26D7D2874992E00820556 /* AppDelegate.swift in Sources */,
 				19D26D7F2874992E00820556 /* SceneDelegate.swift in Sources */,
+				190120EF28752B370055A3E5 /* FlowCoordinator.swift in Sources */,
 				190120ED287525E10055A3E5 /* BaseViewController.swift in Sources */,
 				19D26DC32874D92700820556 /* ThirdViewController.swift in Sources */,
 				19D26DBC2874A17600820556 /* FirstFlowCoordinator.swift in Sources */,

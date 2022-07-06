@@ -7,10 +7,11 @@
 
 import UIKit
 
-final class ThirdFlowCoordinator: Coordinator {
+final class ThirdFlowCoordinator: FlowCoordinator {
     
     // MARK: - Properties
     
+    var flow: Flow = .third
     var parentCoordinator: Coordinator?
     var childCoordinators: [Coordinator] = []
     
@@ -23,23 +24,4 @@ final class ThirdFlowCoordinator: Coordinator {
         self.navigationController = navigationController
         start()
     }
-    
-    func start() {
-        goToThirdViewController()
-    }
-    
-    private func goToThirdViewController() {
-        let flow = Flow.third
-        let viewController = flow.viewController
-        viewController.coordinator = self
-        
-        navigationController.tabBarItem.title = flow.title
-        navigationController.navigationBar.prefersLargeTitles = true
-        navigationController.tabBarItem.image = UIImage(systemName: flow.icon,
-                                                        withConfiguration: UIImage.SymbolConfiguration(scale: .large))
-        
-        
-        navigationController.setViewControllers([viewController], animated: true)
-    }
-    
 }
