@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190120ED287525E10055A3E5 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190120EC287525E10055A3E5 /* BaseViewController.swift */; };
+		190120EF28752B370055A3E5 /* FlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190120EE28752B370055A3E5 /* FlowCoordinator.swift */; };
 		19D26D7D2874992E00820556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26D7C2874992E00820556 /* AppDelegate.swift */; };
 		19D26D7F2874992E00820556 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26D7E2874992E00820556 /* SceneDelegate.swift */; };
-		19D26D812874992E00820556 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26D802874992E00820556 /* ViewController.swift */; };
-		19D26D842874992E00820556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D26D822874992E00820556 /* Main.storyboard */; };
 		19D26D862874993300820556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D26D852874993300820556 /* Assets.xcassets */; };
 		19D26D892874993300820556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D26D872874993300820556 /* LaunchScreen.storyboard */; };
 		19D26D942874993300820556 /* UITabBarController_CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26D932874993300820556 /* UITabBarController_CoordinatorTests.swift */; };
 		19D26D9E2874993300820556 /* UITabBarController_CoordinatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26D9D2874993300820556 /* UITabBarController_CoordinatorUITests.swift */; };
 		19D26DA02874993300820556 /* UITabBarController_CoordinatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26D9F2874993300820556 /* UITabBarController_CoordinatorUITestsLaunchTests.swift */; };
+		19D26DAE28749C8000820556 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DAD28749C8000820556 /* Coordinator.swift */; };
+		19D26DB028749C9100820556 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DAF28749C9100820556 /* Storyboarded.swift */; };
+		19D26DB228749CA000820556 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DB128749CA000820556 /* UIViewController+Extension.swift */; };
+		19D26DB428749D4A00820556 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DB328749D4A00820556 /* MainCoordinator.swift */; };
+		19D26DB828749E6B00820556 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DB728749E6B00820556 /* MainTabBarController.swift */; };
+		19D26DBA28749FC800820556 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DB928749FC800820556 /* FirstViewController.swift */; };
+		19D26DBC2874A17600820556 /* FirstFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DBB2874A17600820556 /* FirstFlowCoordinator.swift */; };
+		19D26DC12874D91C00820556 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DC02874D91C00820556 /* SecondViewController.swift */; };
+		19D26DC32874D92700820556 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DC22874D92700820556 /* ThirdViewController.swift */; };
+		19D26DC52874D97100820556 /* SecondFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DC42874D97100820556 /* SecondFlowCoordinator.swift */; };
+		19D26DC72874D9AD00820556 /* ThirdFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DC62874D9AD00820556 /* ThirdFlowCoordinator.swift */; };
+		19D26DC92874E48800820556 /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DC82874E48800820556 /* Flow.swift */; };
+		19D26DCC2874E6D200820556 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D26DCB2874E6D200820556 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		190120EC287525E10055A3E5 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		190120EE28752B370055A3E5 /* FlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCoordinator.swift; sourceTree = "<group>"; };
 		19D26D792874992E00820556 /* UITabBarController+Coordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITabBarController+Coordinator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D26D7C2874992E00820556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19D26D7E2874992E00820556 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		19D26D802874992E00820556 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		19D26D832874992E00820556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19D26D852874993300820556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19D26D882874993300820556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19D26D8A2874993300820556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +62,19 @@
 		19D26D992874993300820556 /* UITabBarController+CoordinatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITabBarController+CoordinatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D26D9D2874993300820556 /* UITabBarController_CoordinatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarController_CoordinatorUITests.swift; sourceTree = "<group>"; };
 		19D26D9F2874993300820556 /* UITabBarController_CoordinatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarController_CoordinatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19D26DAD28749C8000820556 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		19D26DAF28749C9100820556 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		19D26DB128749CA000820556 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		19D26DB328749D4A00820556 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		19D26DB728749E6B00820556 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		19D26DB928749FC800820556 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		19D26DBB2874A17600820556 /* FirstFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstFlowCoordinator.swift; sourceTree = "<group>"; };
+		19D26DC02874D91C00820556 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		19D26DC22874D92700820556 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		19D26DC42874D97100820556 /* SecondFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFlowCoordinator.swift; sourceTree = "<group>"; };
+		19D26DC62874D9AD00820556 /* ThirdFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdFlowCoordinator.swift; sourceTree = "<group>"; };
+		19D26DC82874E48800820556 /* Flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
+		19D26DCB2874E6D200820556 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +125,20 @@
 		19D26D7B2874992E00820556 /* UITabBarController+Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				19D26DBD2874D8E400820556 /* FirstFlow */,
+				19D26DBE2874D8EF00820556 /* SecondFlow */,
+				19D26DBF2874D90100820556 /* ThirdFlow */,
+				19D26DAC28749C6E00820556 /* Helpers */,
 				19D26D7C2874992E00820556 /* AppDelegate.swift */,
 				19D26D7E2874992E00820556 /* SceneDelegate.swift */,
-				19D26D802874992E00820556 /* ViewController.swift */,
-				19D26D822874992E00820556 /* Main.storyboard */,
 				19D26D852874993300820556 /* Assets.xcassets */,
 				19D26D872874993300820556 /* LaunchScreen.storyboard */,
 				19D26D8A2874993300820556 /* Info.plist */,
+				19D26DCA2874E61200820556 /* MainCoordinator */,
+				19D26DB728749E6B00820556 /* MainTabBarController.swift */,
+				19D26DC82874E48800820556 /* Flow.swift */,
+				190120EC287525E10055A3E5 /* BaseViewController.swift */,
+				190120EE28752B370055A3E5 /* FlowCoordinator.swift */,
 			);
 			path = "UITabBarController+Coordinator";
 			sourceTree = "<group>";
@@ -125,6 +158,52 @@
 				19D26D9F2874993300820556 /* UITabBarController_CoordinatorUITestsLaunchTests.swift */,
 			);
 			path = "UITabBarController+CoordinatorUITests";
+			sourceTree = "<group>";
+		};
+		19D26DAC28749C6E00820556 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				19D26DAD28749C8000820556 /* Coordinator.swift */,
+				19D26DAF28749C9100820556 /* Storyboarded.swift */,
+				19D26DB128749CA000820556 /* UIViewController+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		19D26DBD2874D8E400820556 /* FirstFlow */ = {
+			isa = PBXGroup;
+			children = (
+				19D26DB928749FC800820556 /* FirstViewController.swift */,
+				19D26DBB2874A17600820556 /* FirstFlowCoordinator.swift */,
+			);
+			path = FirstFlow;
+			sourceTree = "<group>";
+		};
+		19D26DBE2874D8EF00820556 /* SecondFlow */ = {
+			isa = PBXGroup;
+			children = (
+				19D26DC02874D91C00820556 /* SecondViewController.swift */,
+				19D26DC42874D97100820556 /* SecondFlowCoordinator.swift */,
+			);
+			path = SecondFlow;
+			sourceTree = "<group>";
+		};
+		19D26DBF2874D90100820556 /* ThirdFlow */ = {
+			isa = PBXGroup;
+			children = (
+				19D26DC22874D92700820556 /* ThirdViewController.swift */,
+				19D26DC62874D9AD00820556 /* ThirdFlowCoordinator.swift */,
+			);
+			path = ThirdFlow;
+			sourceTree = "<group>";
+		};
+		19D26DCA2874E61200820556 /* MainCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				19D26DB328749D4A00820556 /* MainCoordinator.swift */,
+				19D26DCB2874E6D200820556 /* MainViewController.swift */,
+			);
+			path = MainCoordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +312,6 @@
 			files = (
 				19D26D892874993300820556 /* LaunchScreen.storyboard in Resources */,
 				19D26D862874993300820556 /* Assets.xcassets in Resources */,
-				19D26D842874992E00820556 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +336,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19D26D812874992E00820556 /* ViewController.swift in Sources */,
+				19D26DC12874D91C00820556 /* SecondViewController.swift in Sources */,
+				19D26DBA28749FC800820556 /* FirstViewController.swift in Sources */,
+				19D26DB228749CA000820556 /* UIViewController+Extension.swift in Sources */,
+				19D26DB428749D4A00820556 /* MainCoordinator.swift in Sources */,
+				19D26DAE28749C8000820556 /* Coordinator.swift in Sources */,
+				19D26DC52874D97100820556 /* SecondFlowCoordinator.swift in Sources */,
+				19D26DC92874E48800820556 /* Flow.swift in Sources */,
+				19D26DB828749E6B00820556 /* MainTabBarController.swift in Sources */,
+				19D26DB028749C9100820556 /* Storyboarded.swift in Sources */,
+				19D26DCC2874E6D200820556 /* MainViewController.swift in Sources */,
+				19D26DC72874D9AD00820556 /* ThirdFlowCoordinator.swift in Sources */,
 				19D26D7D2874992E00820556 /* AppDelegate.swift in Sources */,
 				19D26D7F2874992E00820556 /* SceneDelegate.swift in Sources */,
+				190120EF28752B370055A3E5 /* FlowCoordinator.swift in Sources */,
+				190120ED287525E10055A3E5 /* BaseViewController.swift in Sources */,
+				19D26DC32874D92700820556 /* ThirdViewController.swift in Sources */,
+				19D26DBC2874A17600820556 /* FirstFlowCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +389,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		19D26D822874992E00820556 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				19D26D832874992E00820556 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		19D26D872874993300820556 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,9 +528,9 @@
 				INFOPLIST_FILE = "UITabBarController+Coordinator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +540,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -472,9 +556,9 @@
 				INFOPLIST_FILE = "UITabBarController+Coordinator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,7 +568,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
